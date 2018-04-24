@@ -19,3 +19,5 @@ CMD python /home/db_create.py
 
 # Run the application 
 ENTRYPOINT ["python", "/home/application.py"]
+
+EXPOSE 4443

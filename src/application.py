@@ -44,4 +44,5 @@ def index():
     return render_template('index.html', form1=form1, form2=form2)
 
 if __name__ == '__main__':
-    application.run(ssl_context='adhoc',host='0.0.0.0',port=4443)  
+    application.run(host='0.0.0.0',port=4443)
+    #application.run(ssl_context='adhoc',host='0.0.0.0',port=4443)  
