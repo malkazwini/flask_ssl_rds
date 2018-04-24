@@ -14,8 +14,8 @@ COPY /src /home
 # install required pip dependancies
 RUN pip install -r /home/requirements.txt
 
-#Create DB to initialize the schema
-CMD python /home/db_create.py
+#Create DB to initialize the schema 
+CMD ["python","/home/db_create.py"]
 
 # Run the application 
 ENTRYPOINT ["python", "/home/application.py"]
