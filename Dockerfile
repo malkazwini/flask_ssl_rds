@@ -6,7 +6,7 @@ MAINTAINER malkazwini@gmail.com
 ENV rds_endpoint \
 	rds_username \
 	rds_password \
-	rds_dbname demodb
+	rds_dbname 
 
 #Copy App source
 COPY /src /home

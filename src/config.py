@@ -12,5 +12,5 @@ SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://'+rds_uname+':'+rds_passwd+'@'+rds_ho
 
 SQLALCHEMY_POOL_RECYCLE = 3600
 
-WTF_CSRF_ENABLED = True
-SECRET_KEY = 'dsaf0897sfdg45sfdgfdsaqzdf98sdf0a'
+WTF_CSRF_ENABLED = False
+SECRET_KEY = 'dsaf0897sfdg45sfdgf333qzdf98sdf0a'

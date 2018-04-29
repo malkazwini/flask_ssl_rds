@@ -1,4 +1,4 @@
-### Deploying a Flask application in AWS: An end-to-end tutorial
+### Deploying a Flask application in AWS with RDS
 
 Simple Flask app that writes and reads from a databse. It uses Amazon RDS for the database backend, the app uses pyopenssl for self-signed certificates
 
